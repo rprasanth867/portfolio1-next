@@ -1,0 +1,14 @@
+
+.root-header {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.root-header nav {
+    margin:auto;
+    width: var(--page-width);
+    max-width: var(--page-max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

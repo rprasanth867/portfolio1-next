@@ -1,0 +1,18 @@
+
+.skills-section-main-container .heading{
+    font-size: var(--main-heading-fs);
+    /* color: var(--grey); */
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills-section-main-container .sub-heading {
+    font-size: var(--sub-heading-fs);
+    color: var(--grey);
+}
+
+.skills-section-main-container .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

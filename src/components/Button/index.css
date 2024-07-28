@@ -1,0 +1,16 @@
+
+.p-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: filter 0.5s;
+}
+
+.p-btn:hover {
+    filter: brightness(1.2);
+}
+
+.p-btn.primary {
+    background-color: var(--primary);
+    color: #fff;
+}
+

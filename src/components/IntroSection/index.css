@@ -1,0 +1,38 @@
+
+.intro-section-main-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.intro-section-main-container .heading {
+    font-size: var(--main-heading-fs);
+    font-weight: bold;
+}
+
+.intro-section-main-container .heading .name {
+    background-image: linear-gradient(45deg, #00b8ff, #c617e9);
+    color: transparent;
+    background-clip: text;
+    animation: gradient 3s ease infinite;
+    background-size: 200% 200%;
+}
+
+.intro-section-main-container .paragraph {
+    font-size: var(--paragraph-fs);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 10% 00%;
+    }
+
+    50% {
+        background-position: 91% 100%;
+    }
+
+    100% {
+        background-position: 10% 00%;
+    }
+}

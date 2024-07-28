@@ -1,0 +1,25 @@
+
+.branding-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.branding-logo-container .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.branding-logo-container .name {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: bold;
+}
